@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
-import Sidebar from './components/Sidebar';
+import Modal from 'react-modal'
+import { Routes } from './routes';
+import { GlobalStyle } from './styles/global';
+
+Modal.setAppElement('#root')
 
 function App() {
-  const [showSidebar, setShowSidebar] = useState(true)
+  
 
   return (
     <>
-      <Sidebar showSidebar={showSidebar} />
-      <section className="home-section">
-        <div className="home-content">
-          <i className='bx bx-menu' onClick={() => setShowSidebar(!showSidebar)} ></i>
-          <span className="text">Página Inicial</span>
-        </div>
-        </section>
+      <Routes />
+      <GlobalStyle />
     </>
   );
 }

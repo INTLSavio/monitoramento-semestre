@@ -10,8 +10,8 @@ function Sidebar({ showSidebar }: SidebarProps) {
     return(
         <div className={showSidebar ? "sidebar close" : "sidebar"}>
         <div className="logo-details">
-          <i className='bx bxl-c-plus-plus'></i>
-          <span className="logo_name">CodingLab</span>
+          <i ></i>
+          <span className="logo_name">MDS</span>
         </div>
         <ul className="nav-links">
           <li>
@@ -33,7 +33,7 @@ function Sidebar({ showSidebar }: SidebarProps) {
             </a>
           </li>
           <li>
-            <a href="/">
+            <a href="/provas">
             <i className='bx bxs-calendar' ></i>
               <span className="link_name">Provas</span>
             </a>
