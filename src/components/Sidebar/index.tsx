@@ -21,7 +21,7 @@ function Sidebar({ showSidebar }: SidebarProps) {
             </a>
           </li>
           <li>
-            <a href="/">
+            <a href="/calculadora">
             <i className='bx bxs-calculator' ></i>
               <span className="link_name">Calculadora</span>
             </a>
