@@ -1,4 +1,7 @@
-[![Build Status](https://img.shields.io/appveyor/ci/thiagoloureiro/netcore-jwt-integrator-extension/master.svg)](https://ci.appveyor.com/project/thiagoloureiro/netcore-jwt-integrator-extension)
+[![monitoramento-semestre](https://img.shields.io/static/v1?label=INTLSavio&message=monitoramento-semestre&color=blue&logo=github)](https://github.com/INTLSavio/monitoramento-semestre "Go to GitHub repo")
+[![Build](https://github.com/INTLSavio/monitoramento-semestre/workflows/CI%2FCD/badge.svg)](https://github.com/INTLSavio/monitoramento-semestre/actions?query=workflow:"CI/CD")
+
+
 
 
 <h1 align="center">
