@@ -38,11 +38,9 @@ Projeto desenvolvido para a matéria de C214.
 ## ⚙️ Funcionalidades
 
 - [x] Aluno entra com os dados:
-  - [x] Mostrar datas de provas e progresso com as notas.
+  - [x] Mostrar datas de provas.
   - [x] Organização de datas de trabalhos.
-  - [x] Popup avisando de proximidade de trabalhos e provas.
-  - [x] Os usuários tem acesso ao aplicativo móvel, onde podem verificar todos os dados citados.
-  
+  - [x] Calcular a sua aprovação baseado nas notas inseridas.
 ---
 
 
