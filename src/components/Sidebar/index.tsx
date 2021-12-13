@@ -27,12 +27,6 @@ function Sidebar({ showSidebar }: SidebarProps) {
             </a>
           </li>
           <li>
-            <a href="/">
-            <i className='bx bxs-book-alt' ></i>
-              <span className="link_name">Estudos</span>
-            </a>
-          </li>
-          <li>
             <a href="/provas">
             <i className='bx bxs-calendar' ></i>
               <span className="link_name">Provas</span>
