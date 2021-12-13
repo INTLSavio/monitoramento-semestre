@@ -67,10 +67,16 @@ $ git clone https://github.com/INTLSavio/monitoramento-semestre.git
 $ cd monitoramento-semestre
 
 # Instale as dependências
-$ npm install
+$ npm install / yarn
+
+# Para rodar os testes
+$ npm test / yarn test
+
+# Execute o banco de dados mockado
+$ npm json-server / yarn json-server
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm start
+$ npm start / yarn start
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 
