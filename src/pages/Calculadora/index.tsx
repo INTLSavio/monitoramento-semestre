@@ -76,11 +76,11 @@ export function Calculadora(){
                 <Container>
                     <InputGroup>
                         <p>Nota 1 Teórica:</p>
-                        <input type="number" name="nota1" id="nota1" placeholder='Nota 1' onChange={(event) => setNota1(Number(event.target.value))}/>
+                        <input data-testid="nota1" type="number" name="nota1" id="nota1" placeholder='Nota 1' onChange={(event) => setNota1(Number(event.target.value))}/>
                     </InputGroup>
                     <InputGroup>
                         <p>Nota 2 Teórica:</p>
-                        <input type="number" name="nota2" id="nota2" placeholder='Nota 2'onChange={(event) => setNota2(Number(event.target.value))}/>
+                        <input data-testid="nota2" type="number" name="nota2" id="nota2" placeholder='Nota 2'onChange={(event) => setNota2(Number(event.target.value))}/>
                     </InputGroup>
                     <InputGroup>
                         <p>A matéria possui laboratório?</p>
@@ -88,7 +88,7 @@ export function Calculadora(){
                     </InputGroup>
                     <InputGroup>
                         <p>Nota Laboratório:</p>
-                        <input type="number" name="nota-lab" id="nota-lab" placeholder='Nota LAB' onChange={(event) => setNotaLab(Number(event.target.value))} disabled={!laboratorio} />
+                        <input data-testid="nota-lab" type="number" name="nota-lab" id="nota-lab" placeholder='Nota LAB' onChange={(event) => setNotaLab(Number(event.target.value))} disabled={!laboratorio} />
                     </InputGroup>
                     <button type='button' onClick={handleButton}>Calcular</button>
                 </Container>
